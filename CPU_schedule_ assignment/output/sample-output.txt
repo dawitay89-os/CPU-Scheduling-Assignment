@@ -1,0 +1,65 @@
+Enter number of processes: p 
+4
+Enter PID AT BT:
+p1 0 7
+p2 2 4
+p3 4 1
+p4 5 4
+
+--- FCFS ---
+p1 CT=7 TAT=7 WT=0
+p2 CT=11 TAT=9 WT=5
+p3 CT=12 TAT=8 WT=7
+p4 CT=16 TAT=11 WT=7
+
+--- SJF ---
+p1 CT=7 TAT=7 WT=0
+p3 CT=8 TAT=4 WT=3
+p2 CT=12 TAT=10 WT=6
+p4 CT=16 TAT=11 WT=7
+
+--- SRTF ---
+p3 CT=5 TAT=1 WT=0
+p2 CT=7 TAT=5 WT=1
+p4 CT=11 TAT=6 WT=2
+p1 CT=16 TAT=16 WT=9
+
+--- Round Robin ---
+p3 CT=7 TAT=3 WT=2
+p2 CT=9 TAT=7 WT=3
+p4 CT=15 TAT=10 WT=6
+p1 CT=16 TAT=16 WT=9
+
+--- Banker's Algorithm ---
+
+Enter processes and resources: 
+5 3
+Enter Allocation Matrix:
+010   0 1 0
+2 0 0
+3 0 2
+2 1 1
+0 0 2
+Enter Max Matrix:
+7 5 3
+3 2 2
+0   9 0 2
+2 2 2
+4 3 3
+Enter Available Resources:
+3 3 2
+System is SAFE
+Sequence: P1 P3 P4 P0 P2 
+
+
+
+
+
+
+
+
+
+
+
+
+
